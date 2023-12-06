@@ -1,0 +1,29 @@
+body {
+    background-color: #E9E5D0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    
+}
+
+#img_produk{
+    height: 132px;
+    width: auto;
+}
+
+.garis-hijau {
+    border-top: 2px solid #20855A; 
+    margin-top: 10px; 
+    margin-right: 92px;
+}
+
+#btn-pesan{
+    margin-top: -18px;
+    padding: 12px;
+    background-color: #20855A;;
+    color: white;
+    border-radius: 5px;
+}
+
+#total{
+    margin-top: -12px;
+}

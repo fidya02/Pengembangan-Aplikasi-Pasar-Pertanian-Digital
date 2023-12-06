@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="alamat-kirim ml-1">
+            <div>
+                <strong> <i class="fa-solid fa-location-dot"></i> Alamat Pengiriman</strong>
+            </div>
+            <div class="ml-3">
+                <span class="nama">Lala</span>
+                <span class="nomor-telepon">(+62 823-2703-3644)</span>
+            </div>
+            <div class="ml-3">
+                <span>(Tambahkan Alamat Utama)</span>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-5 ml-1">
+                <span> <i class="fa-solid fa-shop"></i> Toko Serba Makmur Yogyakarta</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">Tambah Pesanan</span>
+            </div>
+        </div>
+        <div class="row produk mt-2">
+            <div class="col-md-2 ml-4">
+                <img src="produk1.png" alt="" id="img_poduk">
+            </div>
+            <div class="col-md-6 mt-lg-4">
+                <div class="mb-4">Beras</div>
+                <div class="mt-4">Rp 70.000</div>
+            </div>
+        </div>
+        <div class="row produk mt-2">
+            <div class="col-md-2 ml-4">
+                <img src="pupuk.png" alt="" id="img_poduk">
+            </div>
+            <div class="col-md-5 mt-lg-4">
+                <div class="mb-4">Pupuk</div>
+                <div class="mt-6">Rp 80.000</div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-5 ml-1">
+                <span>Total Pesanan (2 barang)</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">Rp 150.000</span>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-5 ml-1">
+                <span>Pilihan Pembayaran</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">COD</span>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-5 ml-1">
+                <span>Sub Total Pesaanan 2 Barang</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">Rp 150.000</span>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-5 ml-1">
+                <span>Biaya Pengiriman</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">Rp 10.000</span>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-5 ml-1">
+                <span>Total</span>
+            </div>
+            <div class="col-md-6">
+                <span class="float-right">Rp 160.000</span>
+                
+            </div>
+        </div>
+        <div>
+            <hr class="garis-hijau">
+        </div>
+        <div class="row ">
+            <div class="col-md-5 ml-1">
+               
+            </div>
+            <div class="col-md-6">
+                <button class="btn float-right" id="btn-pesan">Pesan Sekarang</button>
+                <i class="float-right mr-3"  id="total">Total Pembayaran</i><br>
+                <i class="float-right mr-3" id="total">Rp 160.000</i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
